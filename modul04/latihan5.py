@@ -9,7 +9,7 @@ def faktorial(n):
 def hitung_mundur(n):
     if n == 0:          # <-- Base case
         print("Mulai!")
-    else:               # <-- Recursive case
+    else:               # <-- Recursive casex
         print(n)
         hitung_mundur(n - 1)
 
